@@ -4,7 +4,8 @@ plugins {
     kotlin("jvm")
     kotlin("plugin.serialization")
 
-    id("com.gradleup.shadow") version "9.6.1"
+    // Shadow 9.3+ requiere Gradle 9; la serie 9.2 sigue soportando Gradle 8.14.
+    id("com.gradleup.shadow") version "9.2.2"
     // Fork mantenido: conserva el DSL Paper de Minecrell y soporta Gradle 8.14.
     id("de.eldoria.plugin-yml.paper") version "0.8.0"
     id("xyz.jpenilla.run-paper") version "3.0.2"

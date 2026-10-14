@@ -1,4 +1,5 @@
 import net.minecrell.pluginyml.paper.PaperPluginDescription
+import org.gradle.api.file.DuplicatesStrategy
 
 plugins {
     kotlin("jvm")
@@ -78,6 +79,10 @@ tasks.test {
 }
 
 tasks.shadowJar {
+    // Shadow incorpora descriptores Kotlin repetidos de módulos internos con Gradle 8.14.
+    // Son metadatos de compilación; las clases y recursos de ejecución se conservan.
+    exclude("META-INF/*.kotlin_module")
+
     manifest {
         attributes["paperweight-mappings-namespace"] = "mojang"
     }
@@ -88,6 +93,10 @@ tasks.shadowJar {
     }
 
     mergeServiceFiles()
+    // mergeServiceFiles restaura su estrategia de entradas; fijarla después evita que
+    // un descriptor Kotlin duplicado aborte el empaquetado del JAR sombreado.
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
     if (System.getenv("RELOCATE") != "false") {
         doRelocate("io.github.seggan.kfun")
         doRelocate("co.aikar.commands")

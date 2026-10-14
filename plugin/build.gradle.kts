@@ -5,7 +5,8 @@ plugins {
     kotlin("plugin.serialization")
 
     id("com.gradleup.shadow") version "9.6.1"
-    id("net.minecrell.plugin-yml.paper") version "0.6.0"
+    // Fork mantenido: conserva el DSL Paper de Minecrell y soporta Gradle 8.14.
+    id("de.eldoria.plugin-yml.paper") version "0.8.0"
     id("xyz.jpenilla.run-paper") version "3.0.2"
 
     id("io.github.seggan.uom")

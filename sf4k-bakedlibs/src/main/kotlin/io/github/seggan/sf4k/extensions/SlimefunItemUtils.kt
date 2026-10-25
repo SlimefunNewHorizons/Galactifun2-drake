@@ -1,7 +1,7 @@
 package io.github.seggan.sf4k.extensions
 
-import com.github.drakescraft_labs.slimefun4.api.items.ItemSetting
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
 import org.bukkit.inventory.ItemStack
 import kotlin.contracts.ExperimentalContracts
 import kotlin.contracts.contract

@@ -3,7 +3,7 @@ package io.github.addoncommunity.galactifun.util.bukkit
 import com.github.shynixn.mccoroutine.bukkit.launch
 import com.github.shynixn.mccoroutine.bukkit.ticks
 import io.github.addoncommunity.galactifun.Galactifun2
-import com.github.drakescraft_labs.slimefun4.utils.ChatUtils
+import io.github.thebusybiscuit.slimefun4.utils.ChatUtils
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import org.bukkit.entity.Player

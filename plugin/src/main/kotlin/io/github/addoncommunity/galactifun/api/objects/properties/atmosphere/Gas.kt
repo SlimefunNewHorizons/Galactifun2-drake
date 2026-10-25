@@ -2,12 +2,12 @@ package io.github.addoncommunity.galactifun.api.objects.properties.atmosphere
 
 import io.github.addoncommunity.galactifun.units.Density
 import io.github.addoncommunity.galactifun.units.Density.Companion.kilogramsPerLiter
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType
-import com.github.drakescraft_labs.slimefun4.implementation.items.blocks.UnplaceableBlock
-import com.github.drakescraft_labs.slimefun4.utils.ChatUtils
-import com.github.drakescraft_labs.slimefun4.utils.SlimefunUtils
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock
+import io.github.thebusybiscuit.slimefun4.utils.ChatUtils
+import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils
 import org.bukkit.inventory.ItemStack
 
 /**

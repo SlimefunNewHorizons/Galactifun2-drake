@@ -25,8 +25,8 @@ import io.github.addoncommunity.galactifun.util.bukkit.plus
 import io.github.addoncommunity.galactifun.util.general.log
 import io.github.seggan.sf4k.AbstractAddon
 import io.github.seggan.sf4k.serial.serializers.BukkitSerializerRegistry
-import com.github.drakescraft_labs.slimefun4.api.MinecraftVersion
-import com.github.drakescraft_labs.slimefun4.implementation.Slimefun
+import io.github.thebusybiscuit.slimefun4.api.MinecraftVersion
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

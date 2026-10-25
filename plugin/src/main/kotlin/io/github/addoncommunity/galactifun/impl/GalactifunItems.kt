@@ -8,7 +8,7 @@ import io.github.addoncommunity.galactifun.units.Force.Companion.kilonewtons
 import io.github.addoncommunity.galactifun.units.Volume.Companion.liters
 import io.github.addoncommunity.galactifun.util.items.buildSlimefunItem
 import io.github.addoncommunity.galactifun.util.items.materialType
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
 import org.bukkit.Material
 import kotlin.time.Duration.Companion.seconds
 

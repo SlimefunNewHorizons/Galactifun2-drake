@@ -4,7 +4,7 @@ import io.github.addoncommunity.galactifun.units.Mass
 import io.github.addoncommunity.galactifun.units.Mass.Companion.kilograms
 import io.github.addoncommunity.galactifun.units.Mass.Companion.tons
 import io.github.addoncommunity.galactifun.util.bukkit.contains
-import com.github.drakescraft_labs.slimefun4.utils.tags.SlimefunTag
+import io.github.thebusybiscuit.slimefun4.utils.tags.SlimefunTag
 import me.mrCookieSlime.Slimefun.api.BlockStorage
 import org.bukkit.Material
 import org.bukkit.block.Block

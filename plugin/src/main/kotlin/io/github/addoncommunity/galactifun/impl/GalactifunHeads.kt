@@ -1,7 +1,7 @@
 package io.github.addoncommunity.galactifun.impl
 
 import io.github.addoncommunity.galactifun.util.items.MaterialType
-import com.github.drakescraft_labs.slimefun4.utils.SlimefunUtils
+import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils
 
 enum class GalactifunHeads(private val texture: String) {
 

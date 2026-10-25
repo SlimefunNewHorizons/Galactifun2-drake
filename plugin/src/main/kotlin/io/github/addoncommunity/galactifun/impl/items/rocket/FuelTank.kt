@@ -13,11 +13,11 @@ import io.github.addoncommunity.galactifun.util.general.mergeMaps
 import io.github.addoncommunity.galactifun.util.menu.buildMenu
 import io.github.seggan.sf4k.serial.blockstorage.getBlockStorage
 import io.github.seggan.sf4k.serial.blockstorage.setBlockStorage
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
 import dev.drake.dough.items.CustomItemStack
-import com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils
+import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils
 import me.mrCookieSlime.Slimefun.api.BlockStorage
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.format.NamedTextColor

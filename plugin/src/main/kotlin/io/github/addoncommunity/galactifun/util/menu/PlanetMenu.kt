@@ -8,7 +8,7 @@ import io.github.addoncommunity.galactifun.impl.managers.PlanetManager
 import io.github.addoncommunity.galactifun.util.bukkit.modifyLore
 import io.github.addoncommunity.galactifun.util.bukkit.plus
 import io.github.addoncommunity.galactifun.util.set
-import com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils
+import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils
 import kotlin.time.Clock
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu.MenuClickHandler

@@ -5,7 +5,7 @@ import be.seeseemelk.mockbukkit.UnimplementedOperationException
 import com.github.shynixn.mccoroutine.bukkit.MCCoroutine
 import com.github.shynixn.mccoroutine.bukkit.test.TestMCCoroutine
 import io.github.addoncommunity.galactifun.Galactifun2
-import com.github.drakescraft_labs.slimefun4.implementation.Slimefun
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 

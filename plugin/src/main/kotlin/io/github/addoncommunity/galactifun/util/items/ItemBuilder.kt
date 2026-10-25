@@ -4,11 +4,11 @@ import io.github.addoncommunity.galactifun.Galactifun2
 import io.github.addoncommunity.galactifun.util.bukkit.legacyDefaultColor
 import io.github.addoncommunity.galactifun.util.bukkit.miniMessageToLegacy
 import io.github.addoncommunity.galactifun.util.general.RequiredProperty
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType
-import com.github.drakescraft_labs.slimefun4.utils.SlimefunUtils
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils
 import io.github.addoncommunity.galactifun.units.Force
 import io.github.addoncommunity.galactifun.units.Volume
 import org.bukkit.Material

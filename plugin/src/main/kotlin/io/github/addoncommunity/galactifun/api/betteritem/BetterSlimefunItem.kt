@@ -1,13 +1,13 @@
 package io.github.addoncommunity.galactifun.api.betteritem
 
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup
-import com.github.drakescraft_labs.slimefun4.api.items.ItemSetting
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType
-import com.github.drakescraft_labs.slimefun4.core.handlers.*
-import com.github.drakescraft_labs.slimefun4.implementation.handlers.SimpleBlockBreakHandler
-import com.github.drakescraft_labs.slimefun4.legacy.Objects.handlers.BlockTicker
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun4.core.handlers.*
+import io.github.thebusybiscuit.slimefun4.implementation.handlers.SimpleBlockBreakHandler
+import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config
 import org.bukkit.block.Block
 import org.bukkit.event.block.BlockBreakEvent
@@ -17,7 +17,7 @@ import java.lang.invoke.MethodHandle
 import java.lang.invoke.MethodHandles
 import java.lang.reflect.Method
 import kotlin.reflect.KClass
-import com.github.drakescraft_labs.slimefun4.api.items.ItemHandler as BaseItemHandler
+import io.github.thebusybiscuit.slimefun4.api.items.ItemHandler as BaseItemHandler
 
 open class BetterSlimefunItem : SlimefunItem {
 

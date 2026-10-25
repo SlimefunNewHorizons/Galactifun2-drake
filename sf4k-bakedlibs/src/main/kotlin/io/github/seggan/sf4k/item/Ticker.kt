@@ -1,6 +1,6 @@
 package io.github.seggan.sf4k.item
 
-import com.github.drakescraft_labs.slimefun4.legacy.Objects.handlers.BlockTicker
+import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker
 
 /**
  * Indicates that the annotated function is a [BlockTicker].

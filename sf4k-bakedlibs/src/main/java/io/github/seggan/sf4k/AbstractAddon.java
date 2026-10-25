@@ -1,7 +1,7 @@
 package io.github.seggan.sf4k;
 
 import com.github.shynixn.mccoroutine.bukkit.SuspendingJavaPlugin;
-import com.github.drakescraft_labs.slimefun4.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 

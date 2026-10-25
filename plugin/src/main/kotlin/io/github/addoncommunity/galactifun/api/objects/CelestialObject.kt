@@ -10,7 +10,7 @@ import io.github.addoncommunity.galactifun.units.Velocity.Companion.metersPerSec
 import io.github.addoncommunity.galactifun.util.bukkit.plus
 import io.github.addoncommunity.galactifun.util.general.LazyDouble
 import dev.drake.dough.items.CustomItemStack
-import com.github.drakescraft_labs.slimefun4.utils.ChatUtils
+import io.github.thebusybiscuit.slimefun4.utils.ChatUtils
 import kotlinx.datetime.Instant
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.format.NamedTextColor

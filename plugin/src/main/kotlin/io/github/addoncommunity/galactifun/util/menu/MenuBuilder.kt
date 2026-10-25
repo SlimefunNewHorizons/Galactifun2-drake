@@ -1,15 +1,15 @@
 package io.github.addoncommunity.galactifun.util.menu
 
 import io.github.addoncommunity.galactifun.util.set
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem
-import com.github.drakescraft_labs.slimefun4.implementation.Slimefun
-import com.github.drakescraft_labs.slimefun4.utils.ChestMenuUtils
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun
+import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils
 import it.unimi.dsi.fastutil.chars.Char2ObjectOpenHashMap
 import it.unimi.dsi.fastutil.chars.CharOpenHashSet
 import it.unimi.dsi.fastutil.ints.IntOpenHashSet
-import com.github.drakescraft_labs.slimefun4.legacy.api.inventory.BlockMenu
-import com.github.drakescraft_labs.slimefun4.legacy.api.inventory.BlockMenuPreset
-import com.github.drakescraft_labs.slimefun4.legacy.api.item_transport.ItemTransportFlow
+import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu
+import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset
+import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu
 import org.bukkit.block.Block
 import org.bukkit.entity.Player
@@ -131,7 +131,7 @@ class MenuBuilder {
                         && protection.hasPermission(
                             p,
                             b,
-                            com.github.drakescraft_labs.slimefun4.libraries.dough.protection.Interaction.INTERACT_BLOCK
+                            io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction.INTERACT_BLOCK
                         )
             }
 

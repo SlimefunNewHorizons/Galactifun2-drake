@@ -1,6 +1,6 @@
 /**
  * Vendored sf4k (https://github.com/Seggan/sf4k) for Drake Slimefun + bakedlibs dough.
- * Changes: Slimefun packages -> com.github.drakescraft_labs.slimefun4; BlockPosition -> io.github.bakedlibs.dough.
+ * Changes: Slimefun packages -> io.github.thebusybiscuit.slimefun4; BlockPosition -> io.github.bakedlibs.dough.
  */
 plugins {
     kotlin("jvm") version "2.4.10"
@@ -21,7 +21,7 @@ repositories {
 
 dependencies {
     compileOnlyApi("io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT")
-    compileOnlyApi("com.github.drakescraft_labs:slimefun-core:11.0-Drake-1.21.1-SNAPSHOT")
+    compileOnlyApi("com.github.drakescraft_labs:slimefun-core:11.0-Universal-26.x-SNAPSHOT")
     compileOnlyApi("com.github.drakescraft_labs:dough-core:1.3.1-DRAKE-v11-SNAPSHOT")
     api("com.github.shynixn.mccoroutine:mccoroutine-bukkit-core:2.22.0")
     api("com.github.shynixn.mccoroutine:mccoroutine-bukkit-api:2.22.0")

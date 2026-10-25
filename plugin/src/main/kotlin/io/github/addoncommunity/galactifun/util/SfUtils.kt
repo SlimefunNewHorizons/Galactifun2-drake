@@ -2,8 +2,8 @@
 
 package io.github.addoncommunity.galactifun.util
 
-import com.github.drakescraft_labs.slimefun4.api.items.ItemSetting
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
 import dev.drake.dough.blocks.BlockPosition
 import dev.drake.dough.collections.RandomizedSet
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu

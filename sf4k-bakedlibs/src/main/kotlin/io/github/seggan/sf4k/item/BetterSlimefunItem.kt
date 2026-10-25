@@ -1,14 +1,14 @@
 package io.github.seggan.sf4k.item
 
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup
-import com.github.drakescraft_labs.slimefun4.api.items.ItemSetting
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType
-import com.github.drakescraft_labs.slimefun4.core.handlers.*
-import com.github.drakescraft_labs.slimefun4.implementation.handlers.SimpleBlockBreakHandler
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun4.api.items.ItemSetting
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun4.core.handlers.*
+import io.github.thebusybiscuit.slimefun4.implementation.handlers.SimpleBlockBreakHandler
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config
-import com.github.drakescraft_labs.slimefun4.legacy.Objects.handlers.BlockTicker
+import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker
 import org.bukkit.block.Block
 import org.bukkit.event.block.BlockBreakEvent
 import org.bukkit.event.block.BlockPlaceEvent
@@ -23,7 +23,7 @@ import kotlin.reflect.full.hasAnnotation
 import kotlin.reflect.full.superclasses
 import kotlin.reflect.jvm.isAccessible
 import kotlin.reflect.jvm.javaMethod
-import com.github.drakescraft_labs.slimefun4.api.items.ItemHandler as SfItemHandler
+import io.github.thebusybiscuit.slimefun4.api.items.ItemHandler as SfItemHandler
 
 /**
  * A "better" version of [SlimefunItem] that allows the use of [ItemHandler] and [Ticker] annotations.

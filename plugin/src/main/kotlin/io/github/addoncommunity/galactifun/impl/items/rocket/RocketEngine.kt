@@ -3,11 +3,11 @@ package io.github.addoncommunity.galactifun.impl.items.rocket
 import io.github.addoncommunity.galactifun.api.blocks.HeatResistant
 import io.github.addoncommunity.galactifun.api.objects.properties.atmosphere.Gas
 import io.github.addoncommunity.galactifun.units.Force
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType
-import com.github.drakescraft_labs.slimefun4.core.handlers.BlockUseHandler
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun4.core.handlers.BlockUseHandler
 import org.bukkit.inventory.ItemStack
 import kotlin.time.Duration
 

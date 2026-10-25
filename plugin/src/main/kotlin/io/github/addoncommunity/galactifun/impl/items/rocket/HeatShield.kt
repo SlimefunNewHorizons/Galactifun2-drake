@@ -5,9 +5,9 @@ import io.github.addoncommunity.galactifun.api.blocks.HeatResistant
 import io.github.addoncommunity.galactifun.api.blocks.ReentryBurnable
 import io.github.addoncommunity.galactifun.impl.GalactifunItems
 import io.github.addoncommunity.galactifun.units.Mass.Companion.kilograms
-import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType
+import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType
 import me.mrCookieSlime.Slimefun.api.BlockStorage
 import org.bukkit.block.Block
 import org.bukkit.inventory.ItemStack

@@ -42,8 +42,16 @@
 ## 🛠️ Compilación
 
 ```bash
-mvn clean package
+./gradlew build
 ```
+
+Las dependencias se resuelven desde el repositorio Maven de Drake, <https://maven.drakescraft.cl> (GitHub Pages de
+[`SlimefunNewHorizons/maven-repo`](https://github.com/SlimefunNewHorizons/maven-repo)):
+
+| Línea | Core | Java |
+|---|---|---|
+| 1.21.11 (producción) | `slimefun-core 11.0-Drake-1.21.11-SNAPSHOT` | 21 |
+| Universal 26.x (Paper 26.2) | `slimefun-core 11.0-Universal-26.x-SNAPSHOT` + `dough-core 1.3.1-Universal-26.x-SNAPSHOT` | 25 |
 
 ---
 

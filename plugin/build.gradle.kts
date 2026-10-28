@@ -21,6 +21,7 @@ repositories {
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://repo.aikar.co/content/groups/aikar/")
     maven("https://repo.metamechanists.org/releases/")
+    maven("https://maven.drakescraft.cl/")
 }
 
 dependencies {

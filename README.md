@@ -1,6 +1,5 @@
-> ⚠️ **DEPRECATED & ARCHIVED — DO NOT USE IN PRODUCTION / NO USAR EN PRODUCCIÓN**  
-> **ES:** Este plugin **NO SE USA EN PRODUCCIÓN** en DrakesCraft. Fue descartado y reemplazado en su totalidad por **[Galaxyfun](https://github.com/SlimefunNewHorizons/Galaxyfun)** (integrado en el canon cósmico y Suite 6 de StarSuites). Este repositorio se mantiene **exclusivamente como archivo histórico y de mantenimiento pasivo** en caso de pulls o revisiones externas.  
-> **EN:** This repository is **DEPRECATED and NOT USED IN PRODUCTION**. It has been completely superseded by **[Galaxyfun](https://github.com/SlimefunNewHorizons/Galaxyfun)** (StarSuites Suite 6). Kept strictly for historical reference and passive maintenance.
+> ⚠️ **DEPRECATED & ARCHIVED — DO NOT USE IN PRODUCTION**  
+> This repository is **DEPRECATED and NOT USED IN PRODUCTION**. It has been completely superseded by **[Galaxyfun](https://github.com/SlimefunNewHorizons/Galaxyfun)** (StarSuites Suite 6). Kept strictly for historical reference and passive maintenance.
 
 <div align="center">
 
@@ -8,7 +7,7 @@
 
 # 🧪 Galactifun2-Drake
 
-**Addon de Slimefun4 con Aceleración Nativa en Rust (Java 21 Project Panama FFM API)**
+**Slimefun4 Addon with Native Rust Acceleration (Java 21 Project Panama FFM API)**
 
 <p>
   <a href="https://github.com/SlimefunNewHorizons/Galactifun2-drake"><img src="https://img.shields.io/badge/GitHub-Galactifun2--Drake-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
@@ -19,45 +18,45 @@
 
 </div>
 
-> ### 🏰 ¡Únete a la Comunidad Oficial de DrakesCraft!
+> ### 🏰 Join the Official DrakesCraft Community!
 > 
-> * 🎮 **IP del Servidor**: `mc.drakescraft.cl` *(Java 1.21.11 & Bedrock)*
-> * 💬 **Discord Oficial**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7)
-> * 🌐 **Web & Guía**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Tienda**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
+> * 🎮 **Server IP**: `mc.drakescraft.cl` *(Java 1.21.11 & Bedrock)*
+> * 💬 **Official Discord**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7)
+> * 🌐 **Web & Guide**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Store**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
 > 
-> *¡Juega con este addon y más de 80 expansiones optimizadas en vivo en nuestra network de supervivencia técnica!*
+> *Play with this addon and 80+ more optimized expansions live on our technical survival network!*
 
 ---
 
 ---
 
-## ⚡ Novedades del Modelo Híbrido Cero-Riesgo
+## ⚡ Zero-Risk Hybrid Model Highlights
 
-`Galactifun2-Drake` integra el componente Panama FFM **`RustNativeBridge`** para delegar la aceleración de tickers de máquinas y cálculos pesados directamente al motor nativo `Slimefun-Rust` (`slimefun_ffi`):
-- 🚀 **Procesamiento de Ticks en Nanosegundos**: Multi-hilo paralelo real en CPU sin pausas de Garbage Collector.
-- 🛡️ **Preservación Total sin Reset (SQLite 0-Reset)**: Mantiene intactos todos los bloques e inventarios existentes en `stored-blocks.db`.
+`Galactifun2-Drake` integrates the Panama FFM component **`RustNativeBridge`** to delegate machine ticker acceleration and heavy calculations directly to the native `Slimefun-Rust` (`slimefun_ffi`):
+- 🚀 **Nanosecond Tick Processing**: True parallel multithreading on CPU with no Garbage Collector pauses.
+- 🛡️ **Full Preservation, No Reset (SQLite 0-Reset)**: Keeps all existing blocks and inventories in `stored-blocks.db` intact.
 
 ---
 
-## 🛠️ Compilación
+## 🛠️ Build
 
 ```bash
 ./gradlew build
 ```
 
-Las dependencias se resuelven desde el repositorio Maven de Drake, <https://maven.drakescraft.cl> (GitHub Pages de
+Dependencies are resolved from the Drake Maven repository, <https://maven.drakescraft.cl> (GitHub Pages of
 [`SlimefunNewHorizons/maven-repo`](https://github.com/SlimefunNewHorizons/maven-repo)):
 
-| Línea | Core | Java |
+| Line | Core | Java |
 |---|---|---|
-| 1.21.11 (producción) | `slimefun-core 11.0-Drake-1.21.11-SNAPSHOT` | 21 |
+| 1.21.11 (production) | `slimefun-core 11.0-Drake-1.21.11-SNAPSHOT` | 21 |
 | Universal 26.x (Paper 26.2) | `slimefun-core 11.0-Universal-26.x-SNAPSHOT` + `dough-core 1.3.1-Universal-26.x-SNAPSHOT` | 25 |
 
 ---
 
 <div align="center">
 
-**DrakesCraft Labs** · Mantenido por [**JackStar6677-1**](https://github.com/JackStar6677-1)
+**DrakesCraft Labs** · Maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1)
 
 </div>
 

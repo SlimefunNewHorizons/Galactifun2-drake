@@ -6,10 +6,10 @@ plugins {
     kotlin("plugin.serialization")
 
     // Shadow 9.3+ requiere Gradle 9; la serie 9.2 sigue soportando Gradle 8.14.
-    id("com.gradleup.shadow") version "9.2.2"
+    id("com.gradleup.shadow") version "9.6.1"
     // Fork mantenido: conserva el DSL Paper de Minecrell y soporta Gradle 8.14.
-    id("de.eldoria.plugin-yml.paper") version "0.8.0"
-    id("xyz.jpenilla.run-paper") version "3.0.2"
+    id("de.eldoria.plugin-yml.paper") version "0.9.0"
+    id("xyz.jpenilla.run-paper") version "3.1.0"
 
     id("io.github.seggan.uom")
 }
@@ -57,7 +57,7 @@ dependencies {
     testImplementation(kotlin("test"))
     testImplementation("io.strikt:strikt-core:0.35.1")
     testImplementation("com.github.seeseemelk:MockBukkit-v1.21:3.133.2")
-    testImplementation("com.github.shynixn.mccoroutine:mccoroutine-bukkit-test:2.22.0")
+    testImplementation("com.github.shynixn.mccoroutine:mccoroutine-bukkit-test:2.23.0")
 }
 
 group = "io.github.addoncommunity.galactifun"

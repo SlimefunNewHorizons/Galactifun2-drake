@@ -1,3 +1,9 @@
+<!-- credits:start -->
+> **Credits & license.** Port and maintenance by [JackStar6677-1](https://github.com/JackStar6677-1) and [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Original authors: [Slimefun-Addon-Community](https://github.com/Slimefun-Addon-Community) (upstream [Slimefun-Addon-Community/Galactifun2](https://github.com/Slimefun-Addon-Community/Galactifun2)). Upstream license: **Apache License 2.0** (see [LICENSE](LICENSE)). Details: [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md) · Policy: [Rights & Attribution](https://github.com/SlimefunNewHorizons/.github/blob/main/RIGHTS_AND_ATTRIBUTION.md). Independent community project, not affiliated with or endorsed by the original authors or the official Slimefun team.
+>
+> **Créditos y licencia.** Port y mantenimiento por [JackStar6677-1](https://github.com/JackStar6677-1) y [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Autores originales: [Slimefun-Addon-Community](https://github.com/Slimefun-Addon-Community) (upstream [Slimefun-Addon-Community/Galactifun2](https://github.com/Slimefun-Addon-Community/Galactifun2)). Licencia original: **Apache License 2.0**. Detalle en [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md).
+<!-- credits:end -->
+
 > ⚠️ **DEPRECATED — DO NOT USE IN PRODUCTION**
 > This repository is **DEPRECATED and NOT USED IN PRODUCTION**. It has been completely superseded by **[Galaxyfun](https://github.com/SlimefunNewHorizons/Galaxyfun)** (StarSuites Suite 6). Kept strictly for historical reference and passive maintenance.
 

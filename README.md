@@ -1,5 +1,7 @@
-> ⚠️ **DEPRECATED & ARCHIVED — DO NOT USE IN PRODUCTION**  
+> ⚠️ **DEPRECATED — DO NOT USE IN PRODUCTION**
 > This repository is **DEPRECATED and NOT USED IN PRODUCTION**. It has been completely superseded by **[Galaxyfun](https://github.com/SlimefunNewHorizons/Galaxyfun)** (StarSuites Suite 6). Kept strictly for historical reference and passive maintenance.
+
+> The original [Galactifun2](https://github.com/Slimefun-Addon-Community/Galactifun2) is an unfinished rewrite by its upstream contributors. This independent port is not an official upstream release or endorsement. See [LICENSE](LICENSE) for the Apache 2.0 license and retain upstream notices.
 
 <div align="center">
 
@@ -68,4 +70,4 @@ This project is a sovereign fork maintained by [**JackStar6677-1**](https://gith
 
 - **Original Project:** Created by the upstream authors and the open-source community.
 - **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.
-- **License:** Distributed under the original **GNU General Public License v3.0 (GPLv3)** (or original upstream license). See the [LICENSE](LICENSE) file for complete terms.
+- **License:** [Apache License 2.0](LICENSE); preserve applicable copyright and attribution notices.

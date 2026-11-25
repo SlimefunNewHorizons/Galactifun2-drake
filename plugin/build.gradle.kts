@@ -20,6 +20,7 @@ repositories {
     maven("https://jitpack.io/")
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://repo.aikar.co/content/groups/aikar/")
+    maven("https://maven.drakescraft.cl/")
     maven("https://repo.metamechanists.org/releases/")
 }
 
@@ -55,7 +56,10 @@ dependencies {
 
     testImplementation(kotlin("test"))
     testImplementation("io.strikt:strikt-core:0.35.1")
-    testImplementation("com.github.seeseemelk:MockBukkit-v1.21:3.133.2")
+    testImplementation("org.mockbukkit.mockbukkit:mockbukkit-v26.2:4.116.1")
+    testImplementation("io.papermc.paper:paper-api:26.2.build.111-stable")
+    testImplementation("net.bytebuddy:byte-buddy:1.17.7")
+    testImplementation("net.bytebuddy:byte-buddy-agent:1.17.7")
     testImplementation("com.github.shynixn.mccoroutine:mccoroutine-bukkit-test:2.22.0")
 }
 
@@ -63,7 +67,7 @@ group = "io.github.addoncommunity.galactifun"
 version = "0.0.1-Drake-1.21.11-SNAPSHOT"
 
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(25)
 }
 
 tasks.compileKotlin {

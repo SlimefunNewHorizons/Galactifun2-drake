@@ -1,7 +1,7 @@
 package io.github.addoncommunity.test
 
-import be.seeseemelk.mockbukkit.MockBukkit
-import be.seeseemelk.mockbukkit.UnimplementedOperationException
+import org.mockbukkit.mockbukkit.MockBukkit
+import org.mockbukkit.mockbukkit.exception.UnimplementedOperationException
 import com.github.shynixn.mccoroutine.bukkit.MCCoroutine
 import com.github.shynixn.mccoroutine.bukkit.test.TestMCCoroutine
 import io.github.addoncommunity.galactifun.Galactifun2

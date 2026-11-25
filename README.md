@@ -4,6 +4,8 @@
 > **Créditos y licencia.** Port y mantenimiento por [JackStar6677-1](https://github.com/JackStar6677-1) y [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Autores originales: [Slimefun-Addon-Community](https://github.com/Slimefun-Addon-Community) (upstream [Slimefun-Addon-Community/Galactifun2](https://github.com/Slimefun-Addon-Community/Galactifun2)). Licencia original: **Apache License 2.0**. Detalle en [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md).
 <!-- credits:end -->
 
+> **Branches / Ramas.** `main`: Paper/Purpur 1.21.11 (Java 21). `port-26x`: Paper/Purpur 26.x (production: Purpur 26.2, Java 25). If another section of this README says otherwise, this note prevails. / Si otra seccion de este README dice otra cosa, prevalece esta nota.
+
 > ⚠️ **DEPRECATED — DO NOT USE IN PRODUCTION**
 > This repository is **DEPRECATED and NOT USED IN PRODUCTION**. It has been completely superseded by **[Galaxyfun](https://github.com/SlimefunNewHorizons/Galaxyfun)** (StarSuites Suite 6). Kept strictly for historical reference and passive maintenance.
 

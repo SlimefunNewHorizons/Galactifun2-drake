@@ -1,0 +1,19 @@
+name: Publish
+on:
+  push:
+    branches: [port-26x]
+    paths: [src/**, plugin/**, sf4k-bakedlibs/**, buildSrc/**, build.gradle*, settings.gradle*, gradle.properties]
+  release:
+    types: [published]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  publish:
+    uses: SlimefunNewHorizons/.github/.github/workflows/publish-blob.yml@main
+    with:
+      project: Galactifun2-Drake
+      file: plugin/build/libs/*-all.jar
+      java-version: 25
+      blob: ${{ github.event_name != workflow_dispatch }}
+    secrets: inherit

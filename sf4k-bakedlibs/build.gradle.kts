@@ -16,6 +16,7 @@ repositories {
     mavenCentral()
     maven("https://jitpack.io/")
     maven("https://repo.papermc.io/repository/maven-public/")
+    maven("https://maven.drakescraft.cl/")
     maven("https://repo.metamechanists.org/releases/")
 }
 
